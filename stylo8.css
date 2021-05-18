@@ -1,0 +1,43 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color:black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+    .button1 {
+    background-color:purple; 
+    color: white; 
+    border: 2px solid purple;
+    }
+    .button1:hover {
+    background-color: palevioletred;
+    color: purple;
+    }
+    body{
+        background-image: url("https://wallpapercave.com/wp/2qTUpIl.jpg");
+        font-size: 20px;
+        color: aliceblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 20px;
+        transition-duration: 800ms;
+      }
+      img:hover{
+          margin-left: auto;
+          margin-right: auto;
+          width:75%;
+          transition-duration: 800ms;
+          
+      }

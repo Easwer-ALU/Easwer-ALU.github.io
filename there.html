@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Piz Gloria,Schilthorn,Switzerland</title>
+        <button class="button button1" onclick="location.href='home.html'">Home</button>
+        <button class="button button1" onclick="location.href='story.html'">Story of Piz Gloria</button>
+        <button class="button button1" onclick="location.href='outdoor.html'">Outdoor activities</button>
+        <button class="button button1" onclick="location.href='there.html'">getting there</button>
+        
+        <link rel="stylesheet" href="stylo8.css">
+    </head>
+    <body>
+        <br><br><br>
+       <p><span style="font-size: 50px;">Getting there</span></p>
+       <br>
+       <div id="map" style="height: 500px;width:700px;margin-left: 27%; border-radius: 10px; border:'1';"></div>
+    
+       <p>The Schilthorn lies above the picturesque village of Mürren, and from here you take the cable car to the top of the Schilthorn – a full price return adult ticket (including entrance to the indoor Bond exhibition and the “thrill walk”) costs 82.60 CHF/£63. If you purchase a Swiss Travel Pass in advance, the return ticket is free.
+        If you are travelling from further afield, you will need to take the Lauterbrunnen-Mürren mountain railway, before taking the cable car to the summit
+    </p>
+    </body>
+    <script>
+        var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 46.55722831790289, lng: 7.835209121158288},
+            zoom: 15
+          });
+        }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4OjVgzrbKUqIcWnrdK6B0m6zPCChIxig&callback=initMap"
+      async defer></script>
+</html>
